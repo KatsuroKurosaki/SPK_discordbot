@@ -1,4 +1,4 @@
-//var conf = require('../conf.json');
+var conf = require('../conf.json');
 
 exports.run = (client, message, args) => {
 	if (message.author.bot) return;
